@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Escuela de Danza</title>
+	<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Montserrat:400,700'>
+	<link rel="stylesheet" type="text/css" href="css/grid-system.css">
+	<link rel="stylesheet" type="text/css" href="css/utilities.css">
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="row">
+				<a href="index.html"><h3 class="text-center">ESCUELA DE DANZA</h3></a>
+			</div>
+		</div>
+	</header>
+	<nav class="text-center">
+		<a href="nosotros.html">Nosotros</a>
+		<a href="clases.html">Clases</a>
+		<a href="blog.html">Blog</a>
+		<a href="contactanos.html">Contáctanos</a>
+	</nav>
+	<section>
+		<div class="container-fluid fondo1">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 text-lightgray">
+						<h1 class="text-big mt-5">STUDIO</h1>
+						<p class="p-small">Julliard Studios is <br>
+						the perfect place to find your feet. <br>	
+						With over 20 unique styles of dance <br>
+						and 80 teachers to choose from. <br></p>
+						<button class="darkbutton mt-5">Inscríbete</button>
+					</div>
+				</div>
+			</div>
+			</div>
+				<div class="row fondo2">
+					<div class="col-12 text-center">
+						<p class="mt-5 p-1">Juilliard cuenta con una amplia trayectoria y reputación, brindando una <br> formación de excelencia a cientos de amantes de la danza</p>
+						<button class="bluebutton ">Oferta de Clases</button>
+					</div>		
+				</div>
+	</section>
+	<section>
+		<div class="container-fluid">
+			<div class="row pd-0 text-center">
+			<button class="bluebutton">Nuestros Instructores</button>
+				<div class="col-6 pd-0">
+					<img class="w-100 dosimg " src="img/instructor_4.jpg" alt="">
+				</div>
+				<div class="col-6 pd-0">
+					<img class="w-100 dosimg" src="img/profesor_9.jpg" alt="">
+				</div>
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="container-fluid">
+			<div class="row fondo2">
+				<div class="col-12">
+					<p class="text-center p-2 mt-10 text-blue">"La danza es un poema en el que cada movimiento <br>es una palabra"</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="container-fluid bg-blue">
+			<div class="container">
+				<div class="row  pb-5">
+					<div class="col-6 text-white">
+						<p class="mt-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero inventore labore, eos itaque nostrum, ex iure ipsa voluptate quaerat nisi iusto odit, aspernatur dolorum vel explicabo voluptatum. Eius, voluptatum, esse!</p>
+						<h1 class="mt-5"><b>Visítanos</b></h1>
+						<p class="p-small">The Julliard School<br>
+						60 Lincoln Center Plaza <br>
+						New York, NY 10023 <br></p>
+						<button class="darkbutton mt-5">Inscríbete</button>	
+					</div>
+<!-- MAPA GOOGLE	 -->	<div class="col-6">  
+						<script  src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
+						<div class="mt-5" style='overflow:hidden;height:250px;width:500px;'>
+						<div class="mt-5" id='gmap_canvas' style='height:250px;width:500px;'></div>
+							<div>
+								<small>
+									<a href="http://embedgooglemaps.com">embed google map</a>
+								</small>
+							</div>
+							<div>
+								<small>
+									<a href="https://politicadeprivacidadejemplo.com/">politica de privacidad ejemplo</a>
+								</small>
+							</div>
+						<style>#gmap_canvas img{max-width:none!important;background:none!important}</style>
+						</div>
+						<script type='text/javascript'>function init_map(){var myOptions = {zoom:10,center:new google.maps.LatLng(40.77469103090385,-73.98163719734498),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(40.77469103090385,-73.98163719734498)});infowindow = new google.maps.InfoWindow({content:'<strong>Título</strong><br>60 lincoln center NY<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="container-fluid fondoContacto">
+			<div class="container ">
+				<div class="row">
+					<div class="col-6 " >
+						<h2 class="mt-10">Contáctanos</h2>
+						<input type="text" placeholder='&#xf007;Nombre'>
+						<input type="text" placeholder='&#xf0e0; Email'>
+						<input type="text" placeholder='&#xf040; Mensaje'>
+						<button class="bluebutton2">ENVIAR</button>
+					</div>
+				</div>
+			</div>	
+		</div>
+	</section>
+	<footer>
+		<div class="bg-blue container-fluid ">
+			<div class="row ">
+				<div class="col-12 text-white p-small pt-2 pb-2">
+					<i class="fa fa-copyright" aria-hidden="true"></i>  Escuela de Danza. Todos los derechos reservados
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
